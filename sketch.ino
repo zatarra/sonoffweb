@@ -13,7 +13,7 @@ bool relayOn = false;
 
 void handleRoot() {
   digitalWrite(led, 1);
-  server.send(200, "text/plain", "Hello from Sonoff\nRelay status:" + ( relayOn ? String("ON") : String("OFF") ) );
+  server.send(200, "text/plain", "Relay status:" + ( relayOn ? String("ON") : String("OFF") ) );
   digitalWrite(led, 0);
 }
 

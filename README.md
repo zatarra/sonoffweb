@@ -23,5 +23,13 @@ TL;DR: You need to solder a pin header to access the VCC/GND/RX/TX pins and then
 After installing the pin headers and ARDUINO IDE, all you have to do is to edit the ssid and password fields inside the sketch to match your network. Compile it and upload to the sonoff wifi switch.
 
 
-##### DO NOT CONNECT THE SONOFF TO MAINS WHILE INTERFACING IT WITH YOUR COMPUTER JUST TO BE ON THE SAFE SIDE.
+*** DO NOT CONNECT THE SONOFF TO MAINS WHILE INTERFACING IT WITH YOUR COMPUTER JUST TO BE ON THE SAFE SIDE.
 
+### About the project author
+
+David Gouveia
+
+Infrastructure Automation Engineer & Security Analyst
+
+david.gouveia _at_ gmail.com
+https://www.davidgouveia.net
